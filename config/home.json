@@ -1,0 +1,51 @@
+{
+  "sectionOne": {
+    "urlImg": "/images/car.wepb",
+    "altImg": "car",
+    "head": "Get Reliable Car Recovery Service in Dubai",
+    "paragraph": [
+      "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
+      "People of the entire UAE trust us because we have a lot of experience in this field and have got a competent spot in the market as well.",
+      "Our team with modern Towing trucks guarantees prompt and secure car recovery service in Dubai. In any emergency situation, we will be there for your help instantly."
+    ],
+    "flex": [
+      "Reasonable Prices", "Expert Services", "24/7 Availability"
+    ],
+    "reverse": false
+  },
+  "sectionTwo": {
+    "urlImg": "/images/car.wepb",
+    "altImg": "car",
+    "head": "Get Reliable Car Recovery Service in Dubai",
+    "paragraph": [
+      "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
+      "People of the entire UAE trust us because we have a lot of experience in this field and have got a competent spot in the market as well.",
+      "Our team with modern Towing trucks guarantees prompt and secure car recovery service in Dubai. In any emergency situation, we will be there for your help instantly."
+    ],
+    "flex": [
+      "Reasonable Prices", "Expert Services", "24/7 Availability"
+    ],
+    "reverse": true
+  },
+  "featuresSection": {
+    "heading": "Vehicle Recovery Services",
+    "paragraph": "Are you searching for a Car Recovery service near you who can tow or repair your car? Your search ends here. Just call us, give us your details and our team will be there at your place in just 30 minutes. Below, you will find the services that we offer in Dubai.",
+    "list": [
+      {
+        "urlImg": "/images/towing-vehicle.png",
+        "name": "Heavy Recovery Services",
+        "content": "We’re here to help with big vehicles! Our heavy recovery service is quick and dependable. If your large vehicle has a problem, we’ll get it back on track safely.  We don’t charge extra for heavy vehicles."
+      },
+      {
+        "urlImg": "/images/towing-vehicle.png",
+        "name": "Heavy Recovery Services",
+        "content": "We’re here to help with big vehicles! Our heavy recovery service is quick and dependable. If your large vehicle has a problem, we’ll get it back on track safely.  We don’t charge extra for heavy vehicles."
+      },
+      {
+        "urlImg": "/images/towing-vehicle.png",
+        "name": "Heavy Recovery Services",
+        "content": "We’re here to help with big vehicles! Our heavy recovery service is quick and dependable. If your large vehicle has a problem, we’ll get it back on track safely.  We don’t charge extra for heavy vehicles."
+      }
+    ]
+  }
+}

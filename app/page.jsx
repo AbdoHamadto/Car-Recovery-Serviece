@@ -1,12 +1,14 @@
 import config from "@config/config.json";
 import Cta from "@layouts/components/Cta";
 import SeoMeta from "@layouts/SeoMeta";
+import home from "@config/home.json"
 
 import HomeBanner from "@layouts/partials/HomeBanner";
-import HomeFeatures from "@layouts/partials/HomeFeatures";
-import Services from "@layouts/partials/Services";
+import FeaturesSection from "@layouts/partials/FeaturesSection";
 import Workflow from "@layouts/partials/Workflow";
 import { getListPage } from "../lib/contentParser";
+import Section from "@layouts/partials/Section";
+import TowingServiceSteps from "@layouts/partials/TowingServiceSteps";
 
 const Home = async () => {
   const homePage = await getListPage("content/_index.md");
@@ -19,13 +21,12 @@ const Home = async () => {
       <SeoMeta title={title} />
 
       {/* Banner */}
-      <HomeBanner banner={banner} />
+      <HomeBanner />
 
-      {/* Features */}
-      <HomeFeatures feature={feature} />
-
-      {/* services */}
-      <Services services={services} />
+      <Section {...home.sectionOne} />
+      <FeaturesSection {...home.featuresSection} />
+      <Section {...home.sectionTwo} />
+      <TowingServiceSteps />
 
       {/* workflow */}
       <Workflow workflow={workflow} />

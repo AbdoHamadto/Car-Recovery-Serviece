@@ -31,6 +31,7 @@ module.exports = {
   ],
   theme: {
     screens: {
+      "phone": { max: '767px' },
       sm: "540px",
       md: "768px",
       lg: "1024px",
@@ -43,14 +44,13 @@ module.exports = {
     },
     extend: {
       colors: {
-        text: theme.colors.default.text_color.default,
-        light: theme.colors.default.text_color.light,
-        dark: theme.colors.default.text_color.dark,
-        primary: theme.colors.default.theme_color.primary,
-        secondary: theme.colors.default.theme_color.secondary,
-        body: theme.colors.default.theme_color.body,
-        border: theme.colors.default.theme_color.border,
-        "theme-light": theme.colors.default.theme_color.theme_light,
+        text: "#4B5563",
+        dark: "#222",
+        primary: "#0aa8a7",
+        body: "#fff",
+        border: "#e9e9e9",
+        "theme-light": "#edf6f5",
+        "background-obacity": 'rgba(0, 0, 0, 0.5)',
       },
       fontSize: {
         base: font_base + "px",
