@@ -11,17 +11,17 @@ const Section = ({urlImg, altImg, head, paragraph, flex, reverse}) => {
           alt={altImg}
           width={400}
           height={400}
-          className="rounded-lg"
+          className="rounded-lg w-full"
         />
       </div>
-      <div className="w-2/4 phone:w-4/5 phone:mx-auto">
+      <div className="w-2/4 phone:w-4/5 phone:mx-auto phone:text-center phone:my-4">
         <h2 className="mb-5">{head}</h2>
         {paragraph.map((item, index) => <p key={index} className="mb-5">{item}</p>)}
         <div className="flex">
           {flex.map((item, index) => <p key={index} className="mr-4">{item}</p>)}
         </div>
         <div className="w-full flex items-center justify-center">
-          <button className="bg-primary text-white px-6 py-3 rounded-full text-lg font-bold mt-3">contact us</button>
+          <button className="bg-primary text-white px-6 py-3 rounded-full text-lg font-bold mt-3 hover:bg-hoverButton">contact us</button>
         </div>
       </div>
     </div>

@@ -1,0 +1,35 @@
+[
+  {
+    "urlImage": "/images/body.jpg",
+    "name": "Ahmed",
+    "description": "I was rushing to the office for a general meeting and forgot to fill up the gas in my car. Suddenly, my car stopped, and I could not find a fuel station nearby. These guys helped me, and I reached the office on time for the meeting.",
+    "Problem": "Dead Battery",
+    "solution": [
+      "Check battery connections and clean any corrosion on the terminals.",
+      "Use jumper cables to start the car with the help of another vehicle.",
+      "Replace the battery if it is old or damaged."
+    ]
+  },
+  {
+    "urlImage": "/images/body.jpg",
+    "name": "Abdelrahman",
+    "description": "I was rushing to the office for a general meeting and forgot to fill up the gas in my car. Suddenly, my car stopped, and I could not find a fuel station nearby. These guys helped me, and I reached the office on time for the meeting.",
+    "Problem": "Overheating Engine",
+    "solution": [
+      "Stop the car immediately and wait for the engine to cool.",
+      "Check the coolant level and refill if necessary.",
+      "Inspect the cooling system for leaks or faulty parts like the thermostat."
+    ]
+  },
+  {
+    "urlImage": "/images/body.jpg",
+    "name": "Osama",
+    "description": "These guys helped me a lot when I lockout my car and the keys were inside. They helped me to reach the safest place. Best Car Recovery Service in Dubai.",
+    "Problem": "Flat Tire",
+    "solution": [
+      "Use the spare tire to replace the damaged one.",
+      "If the puncture is small, repair it using a tire repair kit.",
+      "Check the air pressure in other tires to ensure they are safe to drive."
+    ]
+  }
+]

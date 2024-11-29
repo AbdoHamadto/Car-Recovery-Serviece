@@ -1,13 +1,11 @@
-import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/image";
-import Link from "next/link";
 
 const HomeBanner = () => {
   return (
     <>
-      <div className="relative w-full bg-green-300 h-[calc(100vh-76px)] z-0">
+      <div className="relative w-full bg-primary h-[calc(100vh-76px)] z-0">
         <Image
-          src='/images/truck.jpg'
+          src='/images/img.jpg'
           alt="truck"
           width={100}
           height={100}

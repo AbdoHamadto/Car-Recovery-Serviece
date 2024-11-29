@@ -51,6 +51,7 @@ module.exports = {
         border: "#e9e9e9",
         "theme-light": "#edf6f5",
         "background-obacity": 'rgba(0, 0, 0, 0.5)',
+        "hoverButton": '#089190'
       },
       fontSize: {
         base: font_base + "px",
@@ -67,6 +68,15 @@ module.exports = {
       fontFamily: {
         primary: [fontPrimary, fontPrimaryType],
         secondary: [fontSecondary, fontSecondaryType],
+      },
+      animation: {
+        blink: 'blink 1s infinite', // إنشاء حركة Blink
+      },
+      keyframes: {
+        blink: {
+          '0%, 100%': { opacity: 1 }, // ظهور
+          '50%': { opacity: 0 }, // اختفاء
+        },
       },
     },
   },

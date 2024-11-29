@@ -9,6 +9,7 @@ import Workflow from "@layouts/partials/Workflow";
 import { getListPage } from "../lib/contentParser";
 import Section from "@layouts/partials/Section";
 import TowingServiceSteps from "@layouts/partials/TowingServiceSteps";
+import MySwiperComponent from "@layouts/partials/SwiperComponent";
 
 const Home = async () => {
   const homePage = await getListPage("content/_index.md");
@@ -19,20 +20,13 @@ const Home = async () => {
   return (
     <>
       <SeoMeta title={title} />
-
-      {/* Banner */}
       <HomeBanner />
 
       <Section {...home.sectionOne} />
       <FeaturesSection {...home.featuresSection} />
       <Section {...home.sectionTwo} />
       <TowingServiceSteps />
-
-      {/* workflow */}
-      <Workflow workflow={workflow} />
-
-      {/* Cta */}
-      <Cta cta={call_to_action} />
+      <MySwiperComponent />
     </>
   );
 };
