@@ -12,7 +12,7 @@ const FeaturesSection = ({heading, paragraph, list}) => {
         <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
           {list.map((item, i) => (
             <div
-              className="feature-card rounded-xl bg-white p-5 pb-8 text-center"
+              className="feature-card rounded-xl bg-white p-5 pb-8 text-center transition ease-in-out hover:-translate-y-1 hover:scale-110"
               key={`feature-${i}`}
             >
               <Image

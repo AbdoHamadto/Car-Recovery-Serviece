@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-export default function TypewriterEffect({ words, typeSpeed = 50, deleteSpeed = 10, delayBetweenWords = 1000 }) {
+export default function TypewriterEffect({ words, typeSpeed = 50, deleteSpeed = 30, delayBetweenWords = 1000, backgroundColor = 'bg-theme-light', style = 'text-primary', header, height = 'h-[calc(100vh-76px)]' }) {
   const [currentWordIndex, setCurrentWordIndex] = useState(0); 
   const [displayedText, setDisplayedText] = useState(''); 
   const [isDeleting, setIsDeleting] = useState(false); 
@@ -38,8 +38,15 @@ export default function TypewriterEffect({ words, typeSpeed = 50, deleteSpeed = 
   }, [displayedText, isDeleting, currentWordIndex, words, typeSpeed, deleteSpeed, delayBetweenWords]);
 
   return (
-    <span>
-      {displayedText} <span className='-ml-1 text-black animate-blink'>|</span> 
-    </span>
+    <div className={`w-full ${backgroundColor} ${height}  flex items-center justify-center text-white p-3 my-6 mt-10`}>
+      <div className="text-center">
+        {header && <h3 className="text-2xl font-bold mb-3">{header}</h3>}
+        <p className="text-lg">
+          <span className={`${style}`}>
+            {displayedText} <span className='-ml-1 text-black animate-blink'>|</span> 
+          </span>
+        </p>
+      </div>
+    </div>
   );
 };

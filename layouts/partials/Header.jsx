@@ -18,7 +18,6 @@ const Header = () => {
 
   // logo source
   const { logo } = config.site;
-  const { enable, label, link } = config.nav_button;
 
   return (
     <header className="header">
@@ -61,18 +60,18 @@ const Header = () => {
             {main.map((menu, i) => (
               <React.Fragment key={`menu-${i}`}>
                 {menu.hasChildren ? (
-                  <li className="nav-item nav-dropdown group relative">
+                  <li className="nav-item nav-dropdown relative group">
                     <span className="nav-link inline-flex items-center">
                       {menu.name}
                       <svg className="h-4 w-4 fill-current" viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                       </svg>
                     </span>
-                    <ul className="nav-dropdown-list hidden group-hover:block md:invisible md:absolute md:block md:opacity-0 md:group-hover:visible md:group-hover:opacity-100">
+                    <ul className="absolute w-60 -left-10 border-t border-t-primary transform -translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 bg-white shadow-lg rounded z-10">
                       {menu.children.map((child, i) => (
-                        <li className="nav-dropdown-item" key={`children-${i}`}>
+                        <li className="p-1 border-b hover:text-primary hidden group-hover:block rounded" key={`children-${i}`}>
                           <Link
-                            href={child.url}
+                            href={`/our-services/${child.url}`}
                             className="nav-dropdown-link block"
                           >
                             {child.name}
@@ -96,17 +95,6 @@ const Header = () => {
                 )}
               </React.Fragment>
             ))}
-            {enable && (
-              <li className="md:hidden">
-                <Link
-                  className="btn btn-primary z-0 py-[14px]"
-                  href={link}
-                  rel=""
-                >
-                  {label}
-                </Link>
-              </li>
-            )}
           </ul>
         </div>
       </nav>

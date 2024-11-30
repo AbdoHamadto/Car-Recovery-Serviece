@@ -1,9 +1,9 @@
 {
-  "facebook": "https://facebook.com/",
-  "twitter": "https://twitter.com/",
+  "facebook": "",
+  "twitter": "",
   "instagram": "",
   "youtube": "",
-  "linkedin": "https://linkedin.com/",
+  "linkedin": "",
   "github": "",
   "gitlab": "",
   "discord": "",
@@ -18,7 +18,7 @@
   "tumblr": "",
   "reddit": "",
   "vk": "",
-  "whatsapp": "",
+  "whatsapp": "https://api.whatsapp.com/send/?phone=01223006176&text&type=phone_number&app_absent=0",
   "snapchat": "",
   "vimeo": "",
   "tiktok": "",
@@ -27,6 +27,6 @@
   "email": "",
   "phone": "",
   "address": "",
-  "skype": "https://skype.com/",
+  "skype": "",
   "website": ""
 }

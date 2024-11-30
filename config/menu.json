@@ -2,19 +2,61 @@
   "main": [
     {
       "name": "Home",
-      "url": "/"
+      "url": "/",
+      "hasChildren": false
     },
     {
       "name": "About Us",
-      "url": "/about-us"
+      "url": "/about-us",
+      "hasChildren": false
     },
     {
       "name": "Our Services",
-      "url": "/our-services"
+      "url": "/our-services",
+      "hasChildren": true,
+      "children": [
+        {
+          "url": "emergency-towing-services",
+          "name": "Emergency Towing Services"
+        },
+        {
+          "url": "battery-jump-start-assistance",
+          "name": "Battery Jump-Start Assistance"
+        },
+        {
+          "url": "flat-tire-replacement",
+          "name": "Flat Tire Replacement"
+        },
+        {
+          "url": "fuel-delivery-service",
+          "name": "Fuel Delivery Service"
+        },
+        {
+          "url": "lockout-services",
+          "name": "Lockout Services"
+        },
+        {
+          "url": "roadside-mechanic-assistance",
+          "name": "Roadside Mechanic Assistance"
+        },
+        {
+          "url": "vehicle-recovery-services",
+          "name": "Vehicle Recovery Services"
+        },
+        {
+          "url": "long-distance-towing",
+          "name": "Long-Distance Towing"
+        },
+        {
+          "url": "accident-assistance",
+          "name": "Accident Assistance"
+        }
+      ]
     },
     {
       "name": "FAQ",
-      "url": "/faq"
+      "url": "/faq",
+      "hasChildren": false
     }
   ],
   "footer": [
@@ -32,19 +74,43 @@
       ]
     },
     {
-      "name": "Product",
+      "name": "Our Services",
       "menu": [
         {
-          "text": "Features",
-          "url": "#"
+          "url": "emergency-towing-services",
+          "text": "Emergency Towing Services"
         },
         {
-          "text": "Platform",
-          "url": "#"
+          "url": "battery-jump-start-assistance",
+          "text": "Battery Jump-Start Assistance"
         },
         {
-          "text": "Pricing",
-          "url": "/pricing"
+          "url": "flat-tire-replacement",
+          "text": "Flat Tire Replacement"
+        },
+        {
+          "url": "fuel-delivery-service",
+          "text": "Fuel Delivery Service"
+        },
+        {
+          "url": "lockout-services",
+          "text": "Lockout Services"
+        },
+        {
+          "url": "roadside-mechanic-assistance",
+          "text": "Roadside Mechanic Assistance"
+        },
+        {
+          "url": "vehicle-recovery-services",
+          "text": "Vehicle Recovery Services"
+        },
+        {
+          "url": "long-distance-towing",
+          "text": "Long-Distance Towing"
+        },
+        {
+          "url": "accident-assistance",
+          "text": "Accident Assistance"
         }
       ]
     },
