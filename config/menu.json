@@ -16,40 +16,40 @@
       "hasChildren": true,
       "children": [
         {
-          "url": "emergency-towing-services",
-          "name": "Emergency Towing Services"
+          "name": "Road Assistant Dubai",
+          "url": "road-assistant-dubai"
         },
         {
-          "url": "battery-jump-start-assistance",
-          "name": "Battery Jump-Start Assistance"
+          "name": "Towing Services",
+          "url": "towing-services"
         },
         {
-          "url": "flat-tire-replacement",
-          "name": "Flat Tire Replacement"
+          "name": "Recovery Service",
+          "url": "recovery-service"
         },
         {
-          "url": "fuel-delivery-service",
-          "name": "Fuel Delivery Service"
+          "name": "Flat Bed Recovery",
+          "url": "flat-bed-recovery"
         },
         {
-          "url": "lockout-services",
-          "name": "Lockout Services"
+          "name": "Bike Recovery Services",
+          "url": "bike-recovery-services"
         },
         {
-          "url": "roadside-mechanic-assistance",
-          "name": "Roadside Mechanic Assistance"
+          "name": "Sand / Desert Pull out",
+          "url": "sand-desert-pull-out"
         },
         {
-          "url": "vehicle-recovery-services",
-          "name": "Vehicle Recovery Services"
+          "name": "Basement Pull Out",
+          "url": "basement-pull-out"
         },
         {
-          "url": "long-distance-towing",
-          "name": "Long-Distance Towing"
+          "name": "Battery Boosting",
+          "url": "battery-boosting"
         },
         {
-          "url": "accident-assistance",
-          "name": "Accident Assistance"
+          "name": "Lock Out Services",
+          "url": "lock-out-services"
         }
       ]
     },
@@ -77,39 +77,39 @@
       "name": "Our Services",
       "menu": [
         {
-          "url": "emergency-towing-services",
+          "url": "/our-services/emergency-towing-services",
           "text": "Emergency Towing Services"
         },
         {
-          "url": "battery-jump-start-assistance",
+          "url": "/our-services/battery-jump-start-assistance",
           "text": "Battery Jump-Start Assistance"
         },
         {
-          "url": "flat-tire-replacement",
+          "url": "/our-services/flat-tire-replacement",
           "text": "Flat Tire Replacement"
         },
         {
-          "url": "fuel-delivery-service",
+          "url": "/our-services/fuel-delivery-service",
           "text": "Fuel Delivery Service"
         },
         {
-          "url": "lockout-services",
+          "url": "/our-services/lockout-services",
           "text": "Lockout Services"
         },
         {
-          "url": "roadside-mechanic-assistance",
+          "url": "/our-services/roadside-mechanic-assistance",
           "text": "Roadside Mechanic Assistance"
         },
         {
-          "url": "vehicle-recovery-services",
+          "url": "/our-services/vehicle-recovery-services",
           "text": "Vehicle Recovery Services"
         },
         {
-          "url": "long-distance-towing",
+          "url": "/our-services/long-distance-towing",
           "text": "Long-Distance Towing"
         },
         {
-          "url": "accident-assistance",
+          "url": "/our-services/accident-assistance",
           "text": "Accident Assistance"
         }
       ]

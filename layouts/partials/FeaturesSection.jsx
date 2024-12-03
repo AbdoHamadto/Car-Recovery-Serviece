@@ -1,13 +1,13 @@
-import { markdownify } from "@lib/utils/textConverter";
 import Image from "next/image";
+import Link from "next/link";
 
-const FeaturesSection = ({heading, paragraph, list}) => {
+const FeaturesSection = ({heading, list}) => {
   return (
     <section className="section bg-theme-light">
       <div className="container">
         <div className="text-center">
           <h2>{heading}</h2>
-          <p>{paragraph}</p>
+          <div className="w-1/4 mx-auto mt-1 h-1 bg-primary"/>
         </div>
         <div className="mt-8 grid gap-x-8 gap-y-6 sm:grid-cols-2 lg:grid-cols-3">
           {list.map((item, i) => (
@@ -17,13 +17,15 @@ const FeaturesSection = ({heading, paragraph, list}) => {
             >
               <Image
                 className="mx-auto"
-                src='/images/towing-vehicle.png'
+                src={item.urlImage}
                 width={80}
                 height={80}
                 alt=""
               />
-              <div className="mt-4">
-                {markdownify(item.name, "h3", "h5")}
+              <div className="mt-4 flex justify-center items-center flex-col">
+                <Link href={`/our-services/${item.url}`}>
+                  <h5 className="hover:text-primary w-fit">{item.name}</h5>
+                </Link>
                 <p className="mt-3">{item.content}</p>
               </div>
             </div>

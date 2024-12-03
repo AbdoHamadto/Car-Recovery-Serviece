@@ -18,7 +18,7 @@
   "tumblr": "",
   "reddit": "",
   "vk": "",
-  "whatsapp": "https://api.whatsapp.com/send/?phone=01223006176&text&type=phone_number&app_absent=0",
+  "whatsapp": "https://api.whatsapp.com/send/?phone={Number}&text&type=phone_number&app_absent=0",
   "snapchat": "",
   "vimeo": "",
   "tiktok": "",

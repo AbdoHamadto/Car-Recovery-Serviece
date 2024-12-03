@@ -5,54 +5,36 @@ import home from "@config/home.json"
 import HomeBanner from "@layouts/partials/HomeBanner";
 import FeaturesSection from "@layouts/partials/FeaturesSection";
 import Section from "@layouts/partials/Section";
-import TowingServiceSteps from "@layouts/partials/TowingServiceSteps";
+import ListOfSteps from "@layouts/partials/ListOfSteps";
 import MySwiperComponent from "@layouts/partials/SwiperComponent";
 import TypewriterEffect from "@layouts/partials/Typewriter";
+import BodyBanner from "@layouts/partials/bodyBanner";
 
 const Home = async () => {
   const { title } = config.site;
+  const { 
+    homeBannerOne,
+    homeBannerTwo,
+    sectionOne, 
+    sectionTwo, 
+    sectionThree, 
+    sectionFour, 
+    sectionFive, 
+    featuresSection, 
+    TypewriterEffectOne, 
+    TypewriterEffectTwo, 
+    listOfSteps
+  } = home
 
   return (
     <>
       <SeoMeta title={title} />
-      <HomeBanner />
-      <TypewriterEffect
-        words={[
-          'Are You Need Help ?',
-          'Call Now { Number }'
-        ]}
-        height="h-20"
-        style="text-black font-bold text-xl"
-      />
-      <Section {...home.sectionOne} />
-      <FeaturesSection {...home.featuresSection} />
-      <Section {...home.sectionTwo} />
-      <TowingServiceSteps />
-      <Section {...home.sectionTwo} />
+      <HomeBanner {...homeBannerOne}/>
+      <TypewriterEffect {...TypewriterEffectOne}/>
+      <Section {...sectionOne} />
+      <FeaturesSection {...featuresSection} />
       <MySwiperComponent />
-      <Section {...home.sectionTwo} />
-      <TypewriterEffect
-        words={[
-          'Professional Services',
-          'Fast, reliable, and safe.',
-          'Reasonable Prices',
-          '24/7 Availability',
-          'Expert Services',
-          'Reliable & Efficient',
-          'Customer-Centered Approach',
-          'Experienced Team',
-          'Affordable & Transparent Pricing',
-          'Innovative Solutions',
-          'Trustworthy & Secure',
-          'Fast Response Time',
-          'Customer Satisfaction Guarantee',
-          'Eco-Friendly Practices'
-        ]}
-        height="h-40"
-        style="text-black font-bold text-lg"
-        header='Why Choose Us ?'
-      />
-      <Section {...home.sectionTwo} />
+      <BodyBanner {...homeBannerTwo}/>
     </>
   );
 };

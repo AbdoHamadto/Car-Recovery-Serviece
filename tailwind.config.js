@@ -51,7 +51,7 @@ module.exports = {
         border: "#e9e9e9",
         "theme-light": "#edf6f5",
         "background-obacity": 'rgba(0, 0, 0, 0.5)',
-        "hoverButton": '#089190'
+        "hoverPrimary": '#089190'
       },
       fontSize: {
         base: font_base + "px",

@@ -15,6 +15,7 @@ const Header = () => {
 
   // states declaration
   const [navOpen, setNavOpen] = useState(false);
+  const [listOpen, setListOpen] = useState(false);
 
   // logo source
   const { logo } = config.site;
@@ -60,16 +61,19 @@ const Header = () => {
             {main.map((menu, i) => (
               <React.Fragment key={`menu-${i}`}>
                 {menu.hasChildren ? (
-                  <li className="nav-item nav-dropdown relative group">
+                  <li 
+                    className="nav-item nav-dropdown relative group cursor-pointer"
+                    onClick={() => setListOpen(!listOpen)}
+                  >
                     <span className="nav-link inline-flex items-center">
                       {menu.name}
-                      <svg className="h-4 w-4 fill-current" viewBox="0 0 20 20">
+                      <svg className={`h-4 w-4 fill-current transition-all duration-500 group-hover:rotate-180 ${listOpen && "phone:rotate-180"} `} viewBox="0 0 20 20">
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                       </svg>
                     </span>
-                    <ul className="absolute w-60 -left-10 border-t border-t-primary transform -translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-300 bg-white shadow-lg rounded z-10">
+                    <ul className={`nav-list ${listOpen && 'phone:relative phone:opacity-100 phone:h-[300px] phone:w-full phone:mt-4'} `}>
                       {menu.children.map((child, i) => (
-                        <li className="p-1 border-b hover:text-primary hidden group-hover:block rounded" key={`children-${i}`}>
+                        <li className={`p-1 border-b hover:text-primary hidden group-hover:block rounded ${listOpen && 'phone:block'} `} key={`children-${i}`}>
                           <Link
                             href={`/our-services/${child.url}`}
                             className="nav-dropdown-link block"

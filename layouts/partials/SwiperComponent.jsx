@@ -9,7 +9,7 @@ const MySwiperComponent = () => {
 
   return (
     <div className='w-full bg-theme-light py-10 my-10'>
-      <h3 className='text-center my-3'>Our Customer Reviews</h3>
+      <h3 className='text-center my-3'>WHAT OUR CLIENTS SAY!</h3>
       <div className='w-4/5 mx-auto shadow-2xl rounded-lg'>
         <AliceCarousel 
           autoPlay
@@ -22,7 +22,13 @@ const MySwiperComponent = () => {
             <div className='w-full p-4 flex phone:flex-col' key={i}>
               <div className='w-1/2 phone:w-full mr-2 phone:mb-2'>
                 <div className='flex mb-2'>
-                  <Image src="/images/body.jpg" alt="Image 1" width={50} height={200} className='rounded-full mr-2' />
+                  <Image 
+                    src={item.urlImage}
+                    alt="Image 1" 
+                    width={50} 
+                    height={200} 
+                    className='rounded-full mr-2' 
+                  />
                   <div className='my-auto'>
                     <p>{item.name}</p>
                     <p>Custmor</p>

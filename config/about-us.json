@@ -1,0 +1,37 @@
+{
+  "homeBanner": {
+    "urlImage": "/images/map.webp",
+    "header": "Rescue Service You Can Count On",
+    "description": "At [Your Service Name], we understand that being stranded on the road can be stressful and unexpected. That's why we're committed to delivering fast, reliable, and professional roadside assistance whenever and wherever you need it. With a team of experienced professionals and a network that spans across [regions/areas], we ensure your journey continues with peace of mind. Your safety and satisfaction are our top priorities.",
+    "textButton": "Call us now"
+  },
+  "sectionOne": {
+    "urlImage": "/images/car.webp",
+    "altImg": "car",
+    "head": "About Us",
+    "paragraph": [
+      "At [Service Name], we specialize in providing dependable and efficient roadside assistance for vehicles in distress. Whether you're dealing with a breakdown, a flat tire, or any unexpected situation on the road, our mission is to get you back on track quickly and safely.",
+      "We pride ourselves on offering 24/7 service that prioritizes speed, reliability, and professionalism. Our team of trained experts is equipped with the latest tools and technologies to handle emergencies, ensuring a seamless experience for our customers.",
+      "With years of experience and a wide service network, we’ve earned the trust of countless drivers. When you choose [Service Name], you’re choosing peace of mind, knowing that help is just a phone call away, no matter where you are."
+    ],
+    "reverse": false
+  },
+  "listOfSteps": {
+    "header": "Our Vision",
+    "description": "To become the first choice for roadside assistance services through quality, speed, and trust.",
+    "list": [
+      {
+        "urlImage": "/images/phone-call.png",
+        "title": "Commitment"
+      },
+      {
+        "urlImage": "/images/phone-call.png",
+        "title": "Integrity"
+      },
+      {
+        "urlImage": "/images/phone-call.png",
+        "title": "Quick Response"
+      }
+    ]
+  }
+}

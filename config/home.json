@@ -1,50 +1,179 @@
 {
+  "homeBannerOne": {
+    "urlImage": "/images/homeBanner.webp",
+    "header": "Quick and Safe Car Recovery Dubai",
+    "description": "Hire our quick and safe car recovery in Dubai. If you’re stuck in an undesired situation or your car’s not working, we’re here to assist and to keep your journey going smoothly.",
+    "textButton": "Call us now"
+  },
+  "homeBannerTwo": {
+    "urlImage": "/images/homeBanner.webp",
+    "header": "GET EMERGENCY",
+    "description": "towing service when you need it most 24 / 7 TOWING SERVICE",
+    "style": "h-96 bg-primary opacity-70",
+    "heightImage": "h-96",
+    "textButton": "+12345678"
+  },
   "sectionOne": {
-    "urlImg": "/images/car.wepb",
+    "urlImage": "/images/car.webp",
     "altImg": "car",
     "head": "Get Reliable Car Recovery Service in Dubai",
-    "paragraph": [
-      "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
-      "People of the entire UAE trust us because we have a lot of experience in this field and have got a competent spot in the market as well.",
-      "Our team with modern Towing trucks guarantees prompt and secure car recovery service in Dubai. In any emergency situation, we will be there for your help instantly."
-    ],
+    "paragraph": "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
     "flex": [
-      "Reasonable Prices", "Expert Services", "24/7 Availability"
+      "Road Assistant",
+      "Towing Services",
+      "Recovery Services",
+      "Lock Out Services",
+      "Sports Car Towinng Service",
+      "Pull Out Services (Desert & Basement)"
     ],
     "reverse": false
   },
   "sectionTwo": {
-    "urlImg": "/images/car.wepb",
+    "urlImage": "/images/car.webp",
     "altImg": "car",
     "head": "Get Reliable Car Recovery Service in Dubai",
-    "paragraph": [
-      "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
-      "People of the entire UAE trust us because we have a lot of experience in this field and have got a competent spot in the market as well.",
-      "Our team with modern Towing trucks guarantees prompt and secure car recovery service in Dubai. In any emergency situation, we will be there for your help instantly."
-    ],
+    "paragraph": "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
     "flex": [
       "Reasonable Prices", "Expert Services", "24/7 Availability"
     ],
     "reverse": true
   },
+  "sectionThree": {
+    "urlImage": "/images/car.webp",
+    "altImg": "car",
+    "head": "Get Reliable Car Recovery Service in Dubai",
+    "paragraph": "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
+    "flex": [
+      "Reasonable Prices", "Expert Services", "24/7 Availability"
+    ],
+    "reverse": false
+  },
+  "sectionFour": {
+    "urlImage": "/images/car.webp",
+    "altImg": "car",
+    "head": "Get Reliable Car Recovery Service in Dubai",
+    "paragraph": "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
+    "flex": [
+      "Reasonable Prices", "Expert Services", "24/7 Availability"
+    ],
+    "reverse": true
+  },
+  "sectionFive": {
+    "urlImage": "/images/car.webp",
+    "altImg": "car",
+    "head": "Get Reliable Car Recovery Service in Dubai",
+    "paragraph": "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
+    "flex": [
+      "Reasonable Prices", "Expert Services", "24/7 Availability"
+    ],
+    "reverse": false
+  },
   "featuresSection": {
-    "heading": "Vehicle Recovery Services",
-    "paragraph": "Are you searching for a Car Recovery service near you who can tow or repair your car? Your search ends here. Just call us, give us your details and our team will be there at your place in just 30 minutes. Below, you will find the services that we offer in Dubai.",
+    "heading": "OUR SERVICES",
     "list": [
       {
-        "urlImg": "/images/towing-vehicle.png",
-        "name": "Heavy Recovery Services",
-        "content": "We’re here to help with big vehicles! Our heavy recovery service is quick and dependable. If your large vehicle has a problem, we’ll get it back on track safely.  We don’t charge extra for heavy vehicles."
+        "urlImage": "/images/towing-vehicle.png",
+        "name": "Road Assistant Dubai",
+        "url": "road-assistant-dubai",
+        "content": "We Provide Twenty Four Hours Emergency Car Assistant Services at Dubai, Sharjah and Abu Dhabi. Our Group of Professional Drivers and street aid specialists. "
       },
       {
-        "urlImg": "/images/towing-vehicle.png",
-        "name": "Heavy Recovery Services",
-        "content": "We’re here to help with big vehicles! Our heavy recovery service is quick and dependable. If your large vehicle has a problem, we’ll get it back on track safely.  We don’t charge extra for heavy vehicles."
+        "urlImage": "/images/towing-vehicle.png",
+        "name": "Towing Services",
+        "url": "towing-services",
+        "content": "In case the consumer meets with an injury and also the travel can’t be repeated Car Recovery Dubai Carrecoverydubai.co can tow the car into the merchant’s garage &  provide the best car towing service."
       },
       {
-        "urlImg": "/images/towing-vehicle.png",
-        "name": "Heavy Recovery Services",
-        "content": "We’re here to help with big vehicles! Our heavy recovery service is quick and dependable. If your large vehicle has a problem, we’ll get it back on track safely.  We don’t charge extra for heavy vehicles."
+        "urlImage": "/images/towing-vehicle.png",
+        "name": "Recovery Service",
+        "url": "recovery-service",
+        "content": "We’re offering recovery support in Dubai, Sharjah and Abu Dhabi. Our Team of Professional Drivers accessible 24 hours Emergency Retrieval Support"
+      },
+      {
+        "urlImage": "/images/towing-vehicle.png",
+        "name": "Flat Bed Recovery",
+        "url": "flat-bed-recovery",
+        "content": "carrecoverydubai.co are able to offer a flat bed recovery service should you need your vehicle taken to the track, garage, home, or moved for a corporate event."
+      },
+      {
+        "urlImage": "/images/towing-vehicle.png",
+        "name": "Bike Recovery Services",
+        "url": "bike-recovery-services",
+        "content": "Motorcycle Recovery & Transport Specialist Based In Dubai. Recovering, moving and transporting all Motorcycles and Scooters in Dubai, Sharjah and Abu Dhabi."
+      },
+      {
+        "urlImage": "/images/towing-vehicle.png",
+        "name": "Sand / Desert Pull out",
+        "url": "sand-desert-pull-out",
+        "content": "WSpecial Emergency Service for cars & vehicles stuck in desert or sandy pit. Car recoverydubai.co offer Sand / Desert pull out service in Dubai, Sharjah & Abu Dhabi."
+      },
+      {
+        "urlImage": "/images/towing-vehicle.png",
+        "name": "Basement Pull Out",
+        "url": "basement-pull-out",
+        "content": "carrecoverydubai.co are able to offer a Basement Pull Out service should you need your vehicle taken to the garage, home, corporate event."
+      },
+      {
+        "urlImage": "/images/towing-vehicle.png",
+        "name": "Battery Boosting",
+        "url": "battery-boosting",
+        "content": "A proper functioning battery is necessary for the operation of your vehicle and when it fails. carrecoverydubai.co offer Battery boosting in Dubai, Sharjah and Abu Dhabi."
+      },
+      {
+        "urlImage": "/images/towing-vehicle.png",
+        "name": "Lock Out Services",
+        "url": "lock-out-services",
+        "content": "The most dreadful situation will be realizing that the keys are locked in your car. This situation can be faced by anybody, anywhere, anytime. If the keys are locked."
+      }
+    ]
+  },
+  "TypewriterEffectOne": {
+    "words" :[
+          "Are You Need Help ?",
+          "Call Now { Number }"
+        ],
+    "height": "h-20",
+    "style": "text-black font-bold text-xl"
+  },
+  "TypewriterEffectTwo": {
+    "words" :[
+        "Professional Services",
+        "Fast, reliable, and safe.",
+        "Reasonable Prices",
+        "24/7 Availability",
+        "Expert Services",
+        "Reliable & Efficient",
+        "Customer-Centered Approach",
+        "Experienced Team",
+        "Affordable & Transparent Pricing",
+        "Innovative Solutions",
+        "Trustworthy & Secure",
+        "Fast Response Time",
+        "Customer Satisfaction Guarantee",
+        "Eco-Friendly Practices"
+      ],
+    "height": "h-40",
+    "style": "text-black font-bold text-lg",
+    "header": "Why Choose Us ?"
+  },
+  "listOfSteps": {
+    "header": "How To Avail Our Car Towing Service in Dubai?",
+    "list": [
+      {
+        "urlImage": "/images/phone-call.png",
+        "title": "Contact Us"
+      },
+      {
+        "urlImage": "/images/phone-call.png",
+        "title": "On Time Arrival"
+      },
+      {
+        "urlImage": "/images/phone-call.png",
+        "title": "On Site Assessment"
+      },
+      {
+        "urlImage": "/images/phone-call.png",
+        "title": "Vehicle Recovery"
       }
     ]
   }
