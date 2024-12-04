@@ -1,7 +1,8 @@
 {
   "homeBannerOne": {
     "urlImage": "/images/homeBanner.webp",
-    "header": "Quick and Safe Car Recovery Dubai",
+    "header": "Car Recovery Dubai",
+    "headerTwo": "Service 24/7",
     "description": "Hire our quick and safe car recovery in Dubai. If you’re stuck in an undesired situation or your car’s not working, we’re here to assist and to keep your journey going smoothly.",
     "textButton": "Call us now"
   },
@@ -26,46 +27,6 @@
       "Lock Out Services",
       "Sports Car Towinng Service",
       "Pull Out Services (Desert & Basement)"
-    ],
-    "reverse": false
-  },
-  "sectionTwo": {
-    "urlImage": "/images/car.webp",
-    "altImg": "car",
-    "head": "Get Reliable Car Recovery Service in Dubai",
-    "paragraph": "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
-    "flex": [
-      "Reasonable Prices", "Expert Services", "24/7 Availability"
-    ],
-    "reverse": true
-  },
-  "sectionThree": {
-    "urlImage": "/images/car.webp",
-    "altImg": "car",
-    "head": "Get Reliable Car Recovery Service in Dubai",
-    "paragraph": "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
-    "flex": [
-      "Reasonable Prices", "Expert Services", "24/7 Availability"
-    ],
-    "reverse": false
-  },
-  "sectionFour": {
-    "urlImage": "/images/car.webp",
-    "altImg": "car",
-    "head": "Get Reliable Car Recovery Service in Dubai",
-    "paragraph": "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
-    "flex": [
-      "Reasonable Prices", "Expert Services", "24/7 Availability"
-    ],
-    "reverse": true
-  },
-  "sectionFive": {
-    "urlImage": "/images/car.webp",
-    "altImg": "car",
-    "head": "Get Reliable Car Recovery Service in Dubai",
-    "paragraph": "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road.",
-    "flex": [
-      "Reasonable Prices", "Expert Services", "24/7 Availability"
     ],
     "reverse": false
   },
@@ -135,47 +96,5 @@
         ],
     "height": "h-20",
     "style": "text-black font-bold text-xl"
-  },
-  "TypewriterEffectTwo": {
-    "words" :[
-        "Professional Services",
-        "Fast, reliable, and safe.",
-        "Reasonable Prices",
-        "24/7 Availability",
-        "Expert Services",
-        "Reliable & Efficient",
-        "Customer-Centered Approach",
-        "Experienced Team",
-        "Affordable & Transparent Pricing",
-        "Innovative Solutions",
-        "Trustworthy & Secure",
-        "Fast Response Time",
-        "Customer Satisfaction Guarantee",
-        "Eco-Friendly Practices"
-      ],
-    "height": "h-40",
-    "style": "text-black font-bold text-lg",
-    "header": "Why Choose Us ?"
-  },
-  "listOfSteps": {
-    "header": "How To Avail Our Car Towing Service in Dubai?",
-    "list": [
-      {
-        "urlImage": "/images/phone-call.png",
-        "title": "Contact Us"
-      },
-      {
-        "urlImage": "/images/phone-call.png",
-        "title": "On Time Arrival"
-      },
-      {
-        "urlImage": "/images/phone-call.png",
-        "title": "On Site Assessment"
-      },
-      {
-        "urlImage": "/images/phone-call.png",
-        "title": "Vehicle Recovery"
-      }
-    ]
   }
 }

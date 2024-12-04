@@ -18,14 +18,8 @@ const Home = async () => {
     homeBannerOne,
     bodyBanner,
     sectionOne, 
-    sectionTwo, 
-    sectionThree, 
-    sectionFour, 
-    sectionFive, 
     featuresSection, 
     TypewriterEffectOne, 
-    TypewriterEffectTwo, 
-    listOfSteps
   } = home
 
   return (
