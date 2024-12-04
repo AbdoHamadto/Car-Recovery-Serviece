@@ -13,8 +13,8 @@ const HomeBanner = ({urlImage , header, description, textButton = "Call Us Now"}
         />
         <div className="w-full h-[calc(100vh-76px)] bg-background-obacity text-white z-20 absolute flex justify-center items-center">
           <div className="text-center w-4/5 mx-auto">
-            <h1 className="text-white">{header}</h1>
-            <p>{description}</p>
+            <h1 className="text-white text-6xl">{header}</h1>
+            <p className="mt-4 mb-2">{description}</p>
             {textButton && <button className="bg-primary px-4 py-2 rounded-full text-lg font-bold mt-2">{textButton}</button> }
           </div>
         </div>
