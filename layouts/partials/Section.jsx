@@ -18,7 +18,7 @@ const Section = ({urlImage = "/images/car.webp", altImg, head, paragraph, flex, 
         <div>
           {flex && flex.map((item, index) => (
             <div key={index} className="flex my-2 group">
-              <input type="checkbox" checked className="w-6 h-6 text-primary rounded-full group-hover:text-hoverPrimary"/>
+              <input type="checkbox" defaultChecked={true} className="w-6 h-6 text-primary rounded-full group-hover:text-hoverPrimary"/>
               <p className="ml-2">{item}</p>
             </div>
           ))}

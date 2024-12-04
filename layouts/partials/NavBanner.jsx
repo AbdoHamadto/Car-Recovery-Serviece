@@ -11,6 +11,7 @@ export default function NavBanner() {
         <div className="flex cursor-pointer" onClick={handelClick}>
           <Image
             src='/images/email.png'
+            alt=""
             width={30}
             height={30}
           />
@@ -19,12 +20,14 @@ export default function NavBanner() {
         <div className="flex items-center cursor-pointer" onClick={handelClick}>
           <Image
             src='/images/call.png'
+            alt=""
             width={30}
             height={30}
           />
           <p className="ml-2 text-lg font-bold text-black mr-6">+12345678</p>
           <Image
             src='/images/24-hours.png'
+            alt=""
             width={30}
             height={30}
           />

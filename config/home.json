@@ -5,12 +5,13 @@
     "description": "Hire our quick and safe car recovery in Dubai. If you’re stuck in an undesired situation or your car’s not working, we’re here to assist and to keep your journey going smoothly.",
     "textButton": "Call us now"
   },
-  "homeBannerTwo": {
+  "bodyBanner": {
     "urlImage": "/images/homeBanner.webp",
     "header": "GET EMERGENCY",
-    "description": "towing service when you need it most 24 / 7 TOWING SERVICE",
-    "style": "h-96 bg-primary opacity-70",
-    "heightImage": "h-96",
+    "description": [
+      "towing service when you need it most",
+      "24 / 7 TOWING SERVICE"
+    ],
     "textButton": "+12345678"
   },
   "sectionOne": {
@@ -72,55 +73,55 @@
     "heading": "OUR SERVICES",
     "list": [
       {
-        "urlImage": "/images/towing-vehicle.png",
+        "urlImage": "/images/roadside-assistance.png",
         "name": "Road Assistant Dubai",
         "url": "road-assistant-dubai",
         "content": "We Provide Twenty Four Hours Emergency Car Assistant Services at Dubai, Sharjah and Abu Dhabi. Our Group of Professional Drivers and street aid specialists. "
       },
       {
-        "urlImage": "/images/towing-vehicle.png",
+        "urlImage": "/images/towing-services.png",
         "name": "Towing Services",
         "url": "towing-services",
         "content": "In case the consumer meets with an injury and also the travel can’t be repeated Car Recovery Dubai Carrecoverydubai.co can tow the car into the merchant’s garage &  provide the best car towing service."
       },
       {
-        "urlImage": "/images/towing-vehicle.png",
+        "urlImage": "/images/recovery-service.png",
         "name": "Recovery Service",
         "url": "recovery-service",
         "content": "We’re offering recovery support in Dubai, Sharjah and Abu Dhabi. Our Team of Professional Drivers accessible 24 hours Emergency Retrieval Support"
       },
       {
-        "urlImage": "/images/towing-vehicle.png",
+        "urlImage": "/images/flatbed-recovery.png",
         "name": "Flat Bed Recovery",
         "url": "flat-bed-recovery",
         "content": "carrecoverydubai.co are able to offer a flat bed recovery service should you need your vehicle taken to the track, garage, home, or moved for a corporate event."
       },
       {
-        "urlImage": "/images/towing-vehicle.png",
+        "urlImage": "/images/bike-recovery.png",
         "name": "Bike Recovery Services",
         "url": "bike-recovery-services",
         "content": "Motorcycle Recovery & Transport Specialist Based In Dubai. Recovering, moving and transporting all Motorcycles and Scooters in Dubai, Sharjah and Abu Dhabi."
       },
       {
-        "urlImage": "/images/towing-vehicle.png",
+        "urlImage": "/images/desert-sand-pullout.png",
         "name": "Sand / Desert Pull out",
         "url": "sand-desert-pull-out",
         "content": "WSpecial Emergency Service for cars & vehicles stuck in desert or sandy pit. Car recoverydubai.co offer Sand / Desert pull out service in Dubai, Sharjah & Abu Dhabi."
       },
       {
-        "urlImage": "/images/towing-vehicle.png",
+        "urlImage": "/images/basement-pullout.png",
         "name": "Basement Pull Out",
         "url": "basement-pull-out",
         "content": "carrecoverydubai.co are able to offer a Basement Pull Out service should you need your vehicle taken to the garage, home, corporate event."
       },
       {
-        "urlImage": "/images/towing-vehicle.png",
+        "urlImage": "/images/battery-boosting.png",
         "name": "Battery Boosting",
         "url": "battery-boosting",
         "content": "A proper functioning battery is necessary for the operation of your vehicle and when it fails. carrecoverydubai.co offer Battery boosting in Dubai, Sharjah and Abu Dhabi."
       },
       {
-        "urlImage": "/images/towing-vehicle.png",
+        "urlImage": "/images/car-locout.png",
         "name": "Lock Out Services",
         "url": "lock-out-services",
         "content": "The most dreadful situation will be realizing that the keys are locked in your car. This situation can be faced by anybody, anywhere, anytime. If the keys are locked."

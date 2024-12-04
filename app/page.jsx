@@ -5,16 +5,18 @@ import home from "@config/home.json"
 import HomeBanner from "@layouts/partials/HomeBanner";
 import FeaturesSection from "@layouts/partials/FeaturesSection";
 import Section from "@layouts/partials/Section";
-import ListOfSteps from "@layouts/partials/ListOfSteps";
-import MySwiperComponent from "@layouts/partials/SwiperComponent";
 import TypewriterEffect from "@layouts/partials/Typewriter";
 import BodyBanner from "@layouts/partials/bodyBanner";
+
+import dynamic from "next/dynamic";
+const MySwiperComponent = dynamic(() => import('@layouts/partials/SwiperComponent'), { ssr: false });
+const Map = dynamic(() => import("@layouts/partials/Map"), { ssr: false });
 
 const Home = async () => {
   const { title } = config.site;
   const { 
     homeBannerOne,
-    homeBannerTwo,
+    bodyBanner,
     sectionOne, 
     sectionTwo, 
     sectionThree, 
@@ -34,7 +36,8 @@ const Home = async () => {
       <Section {...sectionOne} />
       <FeaturesSection {...featuresSection} />
       <MySwiperComponent />
-      <BodyBanner {...homeBannerTwo}/>
+      <BodyBanner {...bodyBanner}/>
+      <Map />
     </>
   );
 };

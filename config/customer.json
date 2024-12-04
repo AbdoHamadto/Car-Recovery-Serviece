@@ -1,35 +1,27 @@
 [
   {
-    "urlImage": "/images/body.jpg",
-    "name": "Ahmed",
-    "description": "I was rushing to the office for a general meeting and forgot to fill up the gas in my car. Suddenly, my car stopped, and I could not find a fuel station nearby. These guys helped me, and I reached the office on time for the meeting.",
-    "problem": "Dead Battery",
-    "solution": [
-      "Check battery connections and clean any corrosion on the terminals.",
-      "Use jumper cables to start the car with the help of another vehicle.",
-      "Replace the battery if it is old or damaged."
-    ]
+    "urlImage": "/images/person1.jpg",
+    "name": "Saad Rabia",
+    "description": "They arrived on time and we’re very attentive. Excellent service and great value. Car towing is now easy and affordable. I am slide content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
   },
   {
-    "urlImage": "/images/body.jpg",
-    "name": "Abdelrahman",
-    "description": "I was rushing to the office for a general meeting and forgot to fill up the gas in my car. Suddenly, my car stopped, and I could not find a fuel station nearby. These guys helped me, and I reached the office on time for the meeting.",
-    "problem": "Overheating Engine",
-    "solution": [
-      "Stop the car immediately and wait for the engine to cool.",
-      "Check the coolant level and refill if necessary.",
-      "Inspect the cooling system for leaks or faulty parts like the thermostat."
-    ]
+    "urlImage": "/images/person2.jpg",
+    "name": "Dr. Alia AlQassimi",
+    "description": "Attentive service with good customer service. Punctual and professional in communication and performing the promised tasks. Reasonable price and hassle free. I highly recommend them and would definitely use them again."
   },
   {
-    "urlImage": "/images/body.jpg",
-    "name": "Osama",
-    "description": "These guys helped me a lot when I lockout my car and the keys were inside. They helped me to reach the safest place. Best Car Recovery Service in Dubai.",
-    "problem": "Flat Tire",
-    "solution": [
-      "Use the spare tire to replace the damaged one.",
-      "If the puncture is small, repair it using a tire repair kit.",
-      "Check the air pressure in other tires to ensure they are safe to drive."
-    ]
+    "urlImage": "/images/person3.jpg",
+    "name": "Mateen Azam",
+    "description": "My car was stuck , I called the company for assistance, The company staff reached my area for assistance within 15 mins. their customer service agent was very friendly and soft spoken. highly recommended A+ Service."
+  },
+  {
+    "urlImage": "/images/person4.jpg",
+    "name": "Ikleel Sarwar",
+    "description": " I am very impressed by their professionalism and service. Special thanks to their driver Saeed who came right on time and was very polite and helpful. Highly recommended! I am slide content. Click edit button to change this text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo."
+  },
+  {
+    "urlImage": "/images/person3.jpg",
+    "name": "Mohammed H",
+    "description": "Very happy with their service. They were fast and efficient. Their staff were very focused on their job, without any waste of time. And they followed our direction to the garage perfectly."
   }
 ]
