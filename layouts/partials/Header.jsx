@@ -54,7 +54,7 @@ const Header = () => {
         <div
           id="nav-menu"
           className={`order-3 md:order-1 ${
-            navOpen ? "max-h-[1000px]" : "max-h-0"
+            navOpen ? "max-h-[1000px]" : "max-h-0 overflow-hidden"
           }`}
         >
           <ul className="navbar-nav block w-full md:flex md:w-auto lg:space-x-2">

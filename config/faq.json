@@ -1,6 +1,52 @@
 [
   {
-    "question": "how are u?",
-    "answer": "Iam fine and u"
+    "question": "What services do you offer for car recovery?",
+    "answer": "We provide roadside assistance services such as towing broken-down vehicles, tire replacement, battery jump-starts, and fuel delivery when needed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.",
+    "state": false
+  },
+  {
+    "question": "How can I request roadside assistance?",
+    "answer": "You can contact us directly via our dedicated phone number or use our mobile app to send a service request with your location.",
+    "state": false
+  },
+  {
+    "question": "Which areas do you cover?",
+    "answer": "We cover all areas within the city and nearby regions, and we are gradually expanding to serve more customers.",
+    "state": false
+  },
+  {
+    "question": "How long does it take for the recovery team to arrive?",
+    "answer": "The arrival time depends on your current location, but we strive to reach you as quickly as possible, usually within 20 to 30 minutes.",
+    "state": false
+  },
+  {
+    "question": "Do you offer 24/7 services?",
+    "answer": "Yes, our services are available 24/7 to assist you at any time.",
+    "state": false
+  },
+  {
+    "question": "Are there additional charges for nighttime services?",
+    "answer": "There may be additional charges for services provided during late-night hours or in remote areas. We will inform you of the cost beforehand.",
+    "state": false
+  },
+  {
+    "question": "Can you tow heavy vehicles or trucks?",
+    "answer": "Yes, we have the equipment necessary to tow heavy vehicles and trucks. Please specify the type of vehicle when requesting service.",
+    "state": false
+  },
+  {
+    "question": "How can I pay for your services?",
+    "answer": "We accept cash, credit/debit cards, and electronic transfers to provide flexible payment options.",
+    "state": false
+  },
+  {
+    "question": "Can you assist if the car is in a garage?",
+    "answer": "Yes, we can reach your car inside the garage and provide the required service. Please share the details when making the request.",
+    "state": false
+  },
+  {
+    "question": "Can you help if I run out of fuel?",
+    "answer": "Of course! We offer fuel delivery service and will reach you wherever you are to get your car running again.",
+    "state": false
   }
 ]
