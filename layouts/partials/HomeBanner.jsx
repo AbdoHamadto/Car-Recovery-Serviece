@@ -13,7 +13,7 @@ const HomeBanner = ({urlImage , header, description, textButton = "Call Us Now",
         />
         <div className="w-full h-[calc(100vh-76px)] bg-background-obacity text-white z-20 absolute flex items-center">
           <div className="container">
-            <div className="w-[550px] phone:w-full">
+            <div className="w-[600px] phone:w-full">
               <h1 className="text-white text-6xl">{header}</h1>
               <h1 className="text-white text-6xl">{headerTwo}</h1>
               <p className="mt-4 mb-2">{description}</p>

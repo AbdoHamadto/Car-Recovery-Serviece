@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 
-export default function TypewriterEffect({ words, typeSpeed = 50, deleteSpeed = 30, delayBetweenWords = 1000, backgroundColor = 'bg-theme-light', style = 'text-primary', header, height = 'h-[calc(100vh-76px)]' }) {
+export default function TypewriterEffect({ words, typeSpeed = 50, deleteSpeed = 30, delayBetweenWords = 1000, backgroundColor = 'bg-theme-light', style = 'text-primary', header, height = 'h-40' }) {
   const [currentWordIndex, setCurrentWordIndex] = useState(0); 
   const [displayedText, setDisplayedText] = useState(''); 
   const [isDeleting, setIsDeleting] = useState(false); 

@@ -25,7 +25,7 @@ export default function Faq() {
               <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
             </svg>
           </div>
-          <p className={`w-11/12 ml-3 font-bold border-black overflow-hidden rounded-b-lg transition-all duration-300 ${item.state ? "p-2 h-fit border-x-2 border-b-2" : "p-0 h-0 border-x-0 border-b-0"}`}>{item.answer}</p>
+          <p className={`w-11/12 ml-3 font-bold border-black overflow-hidden rounded-b-lg transition-all duration-500 ${item.state ? "p-2 h-fit border-x-2 border-b-2" : "p-0 h-0 border-x-0 border-b-0"}`}>{item.answer}</p>
         </div>
       ))}
     </>

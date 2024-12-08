@@ -25,7 +25,7 @@ const MySwiperComponent = () => {
         >
           {customer.map((item, i) => (
             <div className='p-4' key={i}>
-              <div className='h-[450px] flex flex-col justify-around items-center border p-2 transition-colors duration-500 ease-in-out hover:bg-primary rounded-xl hover:text-black'>
+              <div className='h-[450px] flex flex-col justify-around items-center border p-2 transition-colors duration-500 ease-in-out hover:bg-primary rounded-xl hover:text-black hover:-translate-y-2'>
                 <Image 
                   src={item.urlImage}
                   alt="" 

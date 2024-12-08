@@ -6,15 +6,23 @@
     "textButton": "Call us now"
   },
   "sectionOne": {
-    "urlImage": "/images/car.webp",
+    "urlImage": "/images/about-image.jpg",
     "altImg": "car",
     "head": "About Us",
     "paragraph": [
-      "At [Service Name], we specialize in providing dependable and efficient roadside assistance for vehicles in distress. Whether you're dealing with a breakdown, a flat tire, or any unexpected situation on the road, our mission is to get you back on track quickly and safely.",
-      "We pride ourselves on offering 24/7 service that prioritizes speed, reliability, and professionalism. Our team of trained experts is equipped with the latest tools and technologies to handle emergencies, ensuring a seamless experience for our customers.",
-      "With years of experience and a wide service network, we’ve earned the trust of countless drivers. When you choose [Service Name], you’re choosing peace of mind, knowing that help is just a phone call away, no matter where you are."
+      "Carrecoverydubai.co offers top-notch services every time. We want you to know how much we value your needs. Our towing service ensures your car is handled with care, wherever you need it to go.",
+      "Bend Towing is more than just towing. We help you get back on track with our services. Our tow trucks arrive quickly, ready to help you out of a tight spot.",
+      "Whether it’s a dead battery, empty gas tank, or engine trouble, we’ve got you covered. We’ll get you and your vehicle where you need to be. Bend, OR drivers trust us for our professional and friendly service."
     ],
-    "reverse": false
+    "flex": [
+      "Road Assistant",
+      "Towing Services",
+      "Recovery Services",
+      "Lock Out Services",
+      "Sports Car Towinng Service",
+      "Pull Out Services (Desert & Basement)"
+    ],
+    "reverse": true
   },
   "listOfSteps": {
     "header": "Our Vision",
@@ -33,5 +41,21 @@
         "title": "Quick Response"
       }
     ]
+  },
+  "typeWriter": {
+    "header": "Why Choose Us?",
+    "words": [
+      "Fast and Reliable Service",
+      "Expert Technicians",
+      "Affordable Pricing",
+      "Advanced Equipment",
+      "Wide Coverage Area",
+      "24/7 Customer Support",
+      "Safe Vehicle Handling",
+      "Trusted by Thousands",
+      "Flexible Payment Options",
+      "Comprehensive Services"
+    ],
+    "style": "text-black"
   }
 }
