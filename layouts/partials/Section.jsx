@@ -3,7 +3,7 @@ import Image from "next/image";
 const Section = ({urlImage = "/images/car.webp", altImg, head, paragraph, flex, reverse}) => {
   return (
     <div className={`flex justify-between container mx-auto my-16 ${reverse && "flex-row-reverse phone:flex-col-reverse"} phone:flex-col phone:w-full `}> 
-      <div className={`${reverse ? "ml-32" : "mr-32"} my-auto phone:mx-auto phone:w-4/5`}>
+      <div className={`${reverse ? "ml-32" : "mr-32"} w-[500px] my-auto phone:mx-auto phone:w-4/5`}>
         <Image 
           src={urlImage}
           alt={altImg}

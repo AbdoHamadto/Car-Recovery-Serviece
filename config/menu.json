@@ -57,6 +57,11 @@
       "name": "FAQ",
       "url": "/faq",
       "hasChildren": false
+    },
+    {
+      "name": "Contact Us",
+      "url": "/contact-us",
+      "hasChildren": false
     }
   ],
   "serviceSidebar": [

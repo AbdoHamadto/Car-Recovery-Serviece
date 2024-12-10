@@ -1,0 +1,26 @@
+{
+  "inputFirstName": {
+    "id": "first-name",
+    "label": "First Name",
+    "type": "text",
+    "placeholder": "First Name"
+  },
+  "inputLastName": {
+    "id": "last-name",
+    "label": "Last Name",
+    "type": "text",
+    "placeholder": "Last Name"
+  },
+  "inputEmail": {
+    "id": "email",
+    "label": "Email",
+    "type": "email",
+    "placeholder": "e.g.anyThing@mail.com"
+  },
+  "inputPhoneNumber": {
+    "id": "phone-number",
+    "label": "Phone number",
+    "type": "tel",
+    "placeholder": "+971 ** *** ****"
+  }
+}
