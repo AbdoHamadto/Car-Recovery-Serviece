@@ -13,13 +13,15 @@
       "towing service when you need it most",
       "24 / 7 TOWING SERVICE"
     ],
-    "textButton": "+12345678"
+    "textButton": "+971 56 211 8782"
   },
   "sectionOne": {
     "urlImage": "/images/car.webp",
     "altImg": "car",
     "head": "Get Reliable Car Recovery Service in Dubai",
-    "paragraph": ["Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road."],
+    "paragraph": [
+      "Car Recovery Service Dubai is a trusted and reputable car towing service provider in UAE. With a commitment to reliability, our expert mechanics provide immediate roadside assistance, ensuring your safety on the road."
+    ],
     "flex": [
       "Road Assistant",
       "Towing Services",
@@ -90,10 +92,7 @@
     ]
   },
   "TypewriterEffectOne": {
-    "words" :[
-          "Are You Need Help ?",
-          "Call Now { Number }"
-        ],
+    "words": ["Are You Need Help ?", "Call Now +971 56 211 8782"],
     "height": "h-20",
     "style": "text-black font-bold text-xl"
   }

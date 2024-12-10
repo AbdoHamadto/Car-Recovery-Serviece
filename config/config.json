@@ -6,7 +6,7 @@
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "48",
-    "logo_text": "Bigspring Light"
+    "logo_text": "Swift Recovery service"
   },
 
   "settings": {
@@ -24,13 +24,13 @@
   "params": {
     "contact_form_action": "",
     "tag_manager_id": "",
-    "footer_content": "car",
-    "copyright": "Designed and Developed By AbdoHamadto"
+    "footer_content": "Experience the reliability of our car recovery services with no obligations—your trusted partner on the road to safety.",
+    "copyright": ""
   },
 
   "metadata": {
-    "meta_author": "Themefisher",
+    "meta_author": "Car Recovery Service",
     "meta_image": "",
-    "meta_description": "A SAAS template for nextjs"
+    "meta_description": "Experience the reliability of our car recovery services with no obligations—your trusted partner on the road to safety."
   }
 }
