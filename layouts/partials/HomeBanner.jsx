@@ -15,16 +15,14 @@ const HomeBanner = ({
         <Image
           src={urlImage}
           alt="truck"
-          // width={100}
-          // height={100}
           fill={true}
-          className="absolute w-full h-full"
+          className="absolute w-full h-full object-cover"
         />
         <div className="w-full h-[calc(100vh-76px)] bg-background-obacity text-white z-20 absolute flex items-center">
           <div className="container">
             <div className="w-[600px] phone:w-full">
-              <h1 className="text-white text-6xl">{header}</h1>
-              <h1 className="text-white text-6xl">{headerTwo}</h1>
+              <h1 className="text-white text-6xl phone:text-4xl">{header}</h1>
+              <h1 className="text-white text-6xl phone:text-4xl">{headerTwo}</h1>
               <p className="mt-4 mb-2">{description}</p>
               <a
                 aria-label={textAreaLabel}

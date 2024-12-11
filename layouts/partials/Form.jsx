@@ -5,6 +5,8 @@ import contactUs from "@config/contact-us.json";
 import TextArea from "@layouts/components/TextArea";
 import { Formik, Form } from "formik";
 import * as Yup from "yup";
+import axios from "axios";
+import { toast } from "react-hot-toast";
 
 const validationSchema = Yup.object().shape({
   inputFirstName: Yup.string().required("First name is required"),
@@ -24,9 +26,30 @@ export default function CustomForm() {
     inputPhoneNumber: "",
     inputTextArea: ""
   };
-  const handleSubmit = (values) => {
-    console.log("Form submitted:", values);
+  const handleSubmit = async (values, { resetForm }) => {
+    try {
+      const response = await axios.post("https://api.web3forms.com/submit", {
+        access_key: process.env.NEXT_PUBLIC_WEB3_FORMS_ACCESS_KEY,
+        name: `${values.inputFirstName} ${values.inputLastName}`,
+        email: values.inputEmail,
+        phone: values.inputPhoneNumber,
+        message: values.inputTextArea
+      });
+
+      if (response.status === 200 && response.data.success) {
+        console.log("succes")
+        toast.success("Operation was successful!");
+        resetForm();
+      } else {
+        console.log("wrong!")
+        toast.error("Something went wrong!");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      toast.error("There was an error sending your message. Please try again.");
+    }
   };
+
   const { inputFirstName, inputLastName, inputEmail, inputPhoneNumber } = contactUs;
 
   return (
@@ -38,7 +61,6 @@ export default function CustomForm() {
       {({ values, handleChange, errors, touched }) => (
         <Form>
           <div className="flex space-x-4">
-            {/* حقل First Name */}
             <InputText
               {...inputFirstName}
               value={values.inputFirstName}
@@ -46,29 +68,23 @@ export default function CustomForm() {
               error={touched.inputFirstName && errors.inputFirstName}
               name="inputFirstName"
             />
-
-            {/* حقل Last Name */}
             <InputText
-              {...inputLastName} // تمرير خصائص inputLastName من contactUs
+              {...inputLastName}
               value={values.inputLastName}
               onChange={handleChange}
               error={touched.inputLastName && errors.inputLastName}
-              name="inputLastName" // إضافة name لتسهيل إدارة Formik
+              name="inputLastName"
             />
           </div>
-
-          {/* حقل Email */}
           <InputText
-            {...inputEmail} // تمرير خصائص inputEmail من contactUs
+            {...inputEmail}
             value={values.inputEmail}
             onChange={handleChange}
             error={touched.inputEmail && errors.inputEmail}
-            name="inputEmail" // إضافة name لتسهيل إدارة Formik
+            name="inputEmail"
           />
-
-          {/* حقل Phone Number */}
           <InputText
-            {...inputPhoneNumber} // تمرير خصائص inputPhoneNumber من contactUs
+            {...inputPhoneNumber}
             value={values.inputPhoneNumber}
             onChange={handleChange}
             error={touched.inputPhoneNumber && errors.inputPhoneNumber}
@@ -80,7 +96,6 @@ export default function CustomForm() {
             error={touched.inputTextArea && errors.inputTextArea}
             name="inputTextArea"
           />
-
           <button
             className="bg-primary w-full text-center p-2 rounded-lg text-white hover:bg-hoverPrimary"
             type="submit"

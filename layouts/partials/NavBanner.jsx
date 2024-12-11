@@ -7,8 +7,8 @@ export default function NavBanner() {
   };
   return (
     <div className="w-full bg-primary">
-      <div className="container h-12 flex justify-between items-center">
-        <div className="flex cursor-pointer" onClick={handelClick}>
+      <div className="container flex justify-between items-center phone:flex-col p-2">
+        <div className="flex cursor-pointer phone:mb-2" onClick={handelClick}>
           <Image src="/images/email.png" alt="" width={30} height={30} />
           <a
             aria-label="email"

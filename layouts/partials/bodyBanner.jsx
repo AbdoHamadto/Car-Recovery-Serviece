@@ -12,17 +12,15 @@ export default function BodyBanner({
         <Image
           src={urlImage}
           alt="truck"
-          // width={100}
-          // height={100}
           fill
           className="absolute w-full h-full object-cover"
         />
         <div className="w-full h-96 bg-background-obacity text-white z-20 absolute flex justify-center items-center">
           <div className="text-center w-4/5 mx-auto">
-            <p className="text-white text-6xl font-bold">{header}</p>
+            <p className="text-white text-6xl font-bold phone:text-4xl">{header}</p>
             <div className="mt-3">
               {description.map((item, index) => (
-                <p key={index} className="font-bold text-2xl mb-3">
+                <p key={index} className="font-bold text-xl mb-3">
                   {item}
                 </p>
               ))}
@@ -31,7 +29,7 @@ export default function BodyBanner({
               <a
                 aria-label="phone"
                 href="tel:+971562118782"
-                className="bg-primary px-4 py-2 rounded-full text-lg font-bold mt-2"
+                className="bg-primary px-4 py-2 rounded-full text-lg font-bold mt-2 hover:bg-hoverPrimary"
               >
                 {textButton}
               </a>
