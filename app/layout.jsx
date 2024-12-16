@@ -4,6 +4,7 @@ import Footer from "@layouts/partials/Footer";
 import Header from "@layouts/partials/Header";
 import NavBanner from "@layouts/partials/NavBanner";
 import Providers from "@layouts/partials/Providers";
+import FAB from "@layouts/components/FAB";
 import "../styles/style.scss";
 
 export const metadata = {
@@ -61,6 +62,7 @@ export default function RootLayout({ children }) {
         <Header />
         <Providers>{children}</Providers>
         <Footer />
+        <FAB />
       </body>
     </html>
   );
