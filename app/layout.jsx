@@ -7,7 +7,7 @@ import Providers from "@layouts/partials/Providers";
 import "../styles/style.scss";
 
 export const metadata = {
-  title: "Swift Recovery service",
+  title: "Swift Recovery Service",
   description:
     "Experience the reliability of our car recovery services with no obligations—your trusted partner on the road to safety.",
 };

@@ -1,12 +1,12 @@
 {
   "site": {
-    "title": "Swift Recovery service",
+    "title": "Swift Recovery Service",
     "base_url": "/",
     "favicon": "/images/favicon.png",
     "logo": "/images/logo.png",
     "logo_width": "200",
     "logo_height": "48",
-    "logo_text": "Swift Recovery service"
+    "logo_text": "Swift Recovery Service"
   },
 
   "settings": {
