@@ -4,7 +4,7 @@ import Logo from "@components/Logo";
 import menu from "@config/menu.json";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import config from "@config/config.json";
 import { useMediaQuery } from 'react-responsive';
 
@@ -77,7 +77,6 @@ const Header = () => {
                         <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
                       </svg>
                     </span>
-                    {/* UL IN phone ${listOpen && 'phone:relative phone:opacity-100 phone:h-[300px] phone:w-full phone:mt-4'} li  ${listOpen && 'phone:block'}*/}
                     {isMobile ? 
                       <ul className={`nav-list ${listOpen && 'phone:relative phone:opacity-100 phone:h-[300px] phone:w-full phone:mt-4'}`}>
                         {menu.children.map((child, i) => (
