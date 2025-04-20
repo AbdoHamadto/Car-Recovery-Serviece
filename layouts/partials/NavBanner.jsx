@@ -12,20 +12,20 @@ export default function NavBanner() {
           <Image src="/images/email.png" alt="" width={30} height={30} />
           <a
             aria-label="email"
-            href="mailto:arafatullah2030@gmail.com"
+            href="mailto:bhassan.ghamsh2020@gmail.com"
             className="ml-2 text-lg font-bold text-black"
           >
-            arafatullah2030@gmail.com
+            bhassan.ghamsh2020@gmail.com
           </a>
         </div>
         <div className="flex items-center cursor-pointer" onClick={handelClick}>
           <Image src="/images/call.png" alt="" width={30} height={30} />
           <a
             aria-label="phone"
-            href="tel:+971562118782"
+            href="tel:+201270229697"
             className="ml-2 text-lg font-bold text-black mr-6"
           >
-            +971 56 211 8782
+            +201270229697
           </a>
           <Image src="/images/24-hours.png" alt="" width={30} height={30} />
         </div>

@@ -21,6 +21,6 @@
     "id": "phone-number",
     "label": "Phone number",
     "type": "tel",
-    "placeholder": "+971 ** *** ****"
+    "placeholder": "+20** *** ****"
   }
 }
